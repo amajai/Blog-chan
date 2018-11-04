@@ -1,0 +1,108 @@
+
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #f7c331;
+}
+
+.active {
+  background-color: #fd9800;
+}
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #ffd767;
+}
+
+.header {
+  background-image: url(../images/sunset.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.header h2{
+  border: 5px solid black;
+  color: black;
+  padding: 20px;
+  display: inline-block;
+
+}
+.leftcolumn {
+  float: left;
+  width: 100%;
+}
+
+
+.card {
+  background-color: rgb(230, 229, 229);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ccc;
+  border-radius: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+button {
+  background-color: #fd9800;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  background-color: #b66f04;
+}
